@@ -2,6 +2,8 @@ body {
   text-align: center;
   background: #000000; 
   color: #eee;
+  font-size: 1.2em;
+  font-family: sans-serif
 }
 
 img {
