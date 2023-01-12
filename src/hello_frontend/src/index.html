@@ -3,22 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>hello</title>
+    <title>Totally Rad</title>
     <base href="/" />
     <link rel="icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body>
     <main>
-      <img src="logo2.svg" alt="DFINITY logo" />
+      <br />
+      <a href="https://internetcomputer.org/">
+        <img src="logo2.svg" alt="DFINITY logo" />
+      </a>
       <br />
       <br />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
+      <br />
+      <img src="totally-rad.gif" />
+      <br />
+      <br />
+      <br />
+      <audio autoplay autoplay='true' controls='' id='music' loop='' src='/electricjiggalo.mp3'>
+      Your browser does not support the
+      <code>audio</code>
+      element.
+      </audio>
+      <br />
+      <script>
+        var audio = document.getElementById("music");
+        audio.volume = 0.3;
+      </script>
     </main>
   </body>
 </html>

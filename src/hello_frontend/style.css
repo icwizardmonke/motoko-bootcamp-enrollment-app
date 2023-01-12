@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background: #000000; }
+
+h1 {
+  color: red; }
+  h1 span {
+    color: yellow; }
+    h1 span.rad {
+      color: orange; }
+
+img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
